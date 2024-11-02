@@ -1,0 +1,6 @@
+[INFO ] 2024-06-08 20:20:59.542 [TestNG-test-Test-1] TC_LoginTest - opened browser
+[INFO ] 2024-06-08 20:21:11.881 [TestNG-test-Test-3] TC_Login_NewCust_methodChain - NewCustomer Test Started
+[INFO ] 2024-06-08 20:21:21.162 [TestNG-test-Test-1] TC_LoginTest - opened browser
+[INFO ] 2024-06-08 20:21:32.783 [TestNG-test-Test-1] TC_LoginTest - clicked Login
+[INFO ] 2024-06-08 20:21:32.862 [TestNG-test-Test-1] TC_LoginTest - Test Passed
+[INFO ] 2024-06-08 20:22:12.632 [TestNG-test-Test-2] TC_NewCustomer - New Customer Test Started

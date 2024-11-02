@@ -1,0 +1,43 @@
+[INFO ] 2024-09-28 16:09:55.514 [main] TC_LoginTest - opened browser
+[INFO ] 2024-09-28 16:09:55.972 [main] TC_LoginTest - Entered username
+[INFO ] 2024-09-28 16:09:56.246 [main] TC_LoginTest - Entered password
+[INFO ] 2024-10-28 16:10:02.499 [main] TC_LoginTest - clicked Login
+[INFO ] 2024-10-28 16:10:02.532 [main] TC_LoginTest - Test Passed
+[INFO ] 2024-44-28 16:44:11.301 [main] TC_LoginTest - opened browser
+[INFO ] 2024-44-28 16:44:12.094 [main] TC_LoginTest - Entered username
+[INFO ] 2024-44-28 16:44:12.494 [main] TC_LoginTest - Entered password
+[INFO ] 2024-44-28 16:44:21.356 [main] TC_LoginTest - clicked Login
+[INFO ] 2024-44-28 16:44:21.388 [main] TC_LoginTest - Test Passed
+[INFO ] 2024-12-28 17:12:20.430 [main] TC_LoginTest - opened browser
+[INFO ] 2024-12-28 17:12:21.170 [main] TC_LoginTest - Entered username
+[INFO ] 2024-12-28 17:12:21.339 [main] TC_LoginTest - Entered password
+[INFO ] 2024-12-28 17:12:28.457 [main] TC_LoginTest - clicked Login
+[INFO ] 2024-12-28 17:12:28.491 [main] TC_LoginTest - Test Passed
+[INFO ] 2024-23-31 15:23:17.317 [main] TC_LoginTest - opened browser
+[INFO ] 2024-23-31 15:23:17.856 [main] TC_LoginTest - Entered username
+[INFO ] 2024-23-31 15:23:18.064 [main] TC_LoginTest - Entered password
+[INFO ] 2024-23-31 15:23:20.252 [main] TC_LoginTest - clicked Login
+[INFO ] 2024-23-31 15:23:20.278 [main] TC_LoginTest - Test Passed
+[INFO ] 2024-17-23 19:17:14.165 [main] TC_Login_NewCust_methodChain - NewCustomer Test Started
+[INFO ] 2024-05-23 19:19:11.238 [main] TC_Login_NewCust_methodChain - NewCustomer Test Started
+[INFO ] 2024-05-23 19:22:06.861 [main] TC_LoginTest - opened browser
+[INFO ] 2024-05-23 19:22:32.237 [main] TC_LoginTest - opened browser
+[INFO ] 2024-05-23 19:22:35.539 [main] TC_LoginTest - clicked Login
+[INFO ] 2024-05-23 19:22:35.572 [main] TC_LoginTest - Test Passed
+[INFO ] 2024-05-23 19:23:01.620 [main] TC_NewCustomer - New Customer Test Started
+[INFO ] 2024-05-23 19:24:33.457 [TestNG-test-Test-3] TC_Login_NewCust_methodChain - NewCustomer Test Started
+[INFO ] 2024-05-23 19:24:36.271 [TestNG-test-Test-1] TC_LoginTest - opened browser
+[INFO ] 2024-05-23 19:24:40.134 [TestNG-test-Test-2] TC_NewCustomer - New Customer Test Started
+[INFO ] 2024-05-23 19:24:47.561 [TestNG-test-Test-1] TC_LoginTest - clicked Login
+[INFO ] 2024-05-23 19:24:47.763 [TestNG-test-Test-1] TC_LoginTest - Test Passed
+[INFO ] 2024-05-23 19:28:56.228 [TestNG-test-Test-3] TC_Login_NewCust_methodChain - NewCustomer Test Started
+[INFO ] 2024-05-23 19:29:48.176 [TestNG-test-Test-1] TC_LoginTest - opened browser
+[INFO ] 2024-05-23 19:29:52.274 [TestNG-test-Test-2] TC_NewCustomer - New Customer Test Started
+[INFO ] 2024-05-23 19:29:53.052 [TestNG-test-Test-1] TC_LoginTest - clicked Login
+[INFO ] 2024-05-23 19:29:53.265 [TestNG-test-Test-1] TC_LoginTest - Test Passed
+[INFO ] 2024-05-23 19:36:52.917 [TestNG-test-Test-1] TC_LoginTest - opened browser
+[INFO ] 2024-05-23 19:37:08.730 [TestNG-test-Test-3] TC_Login_NewCust_methodChain - NewCustomer Test Started
+[INFO ] 2024-05-23 19:37:29.154 [TestNG-test-Test-1] TC_LoginTest - opened browser
+[INFO ] 2024-05-23 19:37:35.429 [TestNG-test-Test-1] TC_LoginTest - clicked Login
+[INFO ] 2024-05-23 19:37:35.591 [TestNG-test-Test-1] TC_LoginTest - Test Passed
+[INFO ] 2024-05-23 19:37:37.216 [TestNG-test-Test-2] TC_NewCustomer - New Customer Test Started

@@ -1,0 +1,613 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="0" failed="0" skipped="7">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-27T22:22:02 IST" name="Suite" finished-at="2024-05-27T22:22:08 IST" duration-ms="6138">
+    <groups>
+    </groups>
+    <test started-at="2024-05-27T22:22:02 IST" name="Test" finished-at="2024-05-27T22:22:08 IST" duration-ms="6138">
+      <class name="com.testCases.TC_LoginTest">
+        <test-method is-config="true" signature="startReport()[pri:0, instance:com.testCases.TC_LoginTest@53fb3dab]" started-at="2024-05-27T22:22:02 IST" name="startReport" finished-at="2024-05-27T22:22:02 IST" duration-ms="64" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "java.io.File.exists()" because "parentFile" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "java.io.File.exists()" because "parentFile" is null
+at com.aventstack.extentreports.reporter.AbstractFileReporter.<init>(AbstractFileReporter.java:45)
+at com.aventstack.extentreports.reporter.ExtentSparkReporter.<init>(ExtentSparkReporter.java:51)
+at com.testCases.Base.startReport(Base.java:79)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:382)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.testCases.TC_LoginTest@53fb3dab]" started-at="2024-05-27T22:22:02 IST" name="setup" finished-at="2024-05-27T22:22:02 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest()[pri:0, instance:com.testCases.TC_LoginTest@53fb3dab]" started-at="2024-05-27T22:22:02 IST" name="loginTest" finished-at="2024-05-27T22:22:02 IST" duration-ms="1" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "java.io.File.exists()" because "parentFile" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "java.io.File.exists()" because "parentFile" is null
+at com.aventstack.extentreports.reporter.AbstractFileReporter.<init>(AbstractFileReporter.java:45)
+at com.aventstack.extentreports.reporter.ExtentSparkReporter.<init>(ExtentSparkReporter.java:51)
+at com.testCases.Base.startReport(Base.java:79)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:382)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="getTestResult(org.testng.ITestResult)[pri:0, instance:com.testCases.TC_LoginTest@53fb3dab]" started-at="2024-05-27T22:22:02 IST" name="getTestResult" finished-at="2024-05-27T22:22:02 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTestResult -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.testCases.TC_LoginTest@53fb3dab]" started-at="2024-05-27T22:22:02 IST" name="teardown" finished-at="2024-05-27T22:22:02 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:com.testCases.TC_LoginTest@53fb3dab]" started-at="2024-05-27T22:22:08 IST" name="endReport" finished-at="2024-05-27T22:22:08 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.testCases.TC_LoginTest -->
+      <class name="com.testCases.TC_Login_NewCust_methodChain">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.testCases.TC_Login_NewCust_methodChain@79e4c792]" started-at="2024-05-27T22:22:02 IST" name="setup" finished-at="2024-05-27T22:22:02 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="NewCust_methodChain(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testCases.TC_Login_NewCust_methodChain@79e4c792]" started-at="2024-05-27T22:22:08 IST" name="NewCust_methodChain" data-provider="LoginData" finished-at="2024-05-27T22:22:08 IST" duration-ms="1" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Radhika]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[raka@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4/19/35]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Main Road]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Sarojini]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Delhi]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[134679]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[1234567890]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[as12@fa]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "java.io.File.exists()" because "parentFile" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "java.io.File.exists()" because "parentFile" is null
+at com.aventstack.extentreports.reporter.AbstractFileReporter.<init>(AbstractFileReporter.java:45)
+at com.aventstack.extentreports.reporter.ExtentSparkReporter.<init>(ExtentSparkReporter.java:51)
+at com.testCases.Base.startReport(Base.java:79)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:382)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NewCust_methodChain -->
+        <test-method is-config="true" signature="getTestResult(org.testng.ITestResult)[pri:0, instance:com.testCases.TC_Login_NewCust_methodChain@79e4c792]" started-at="2024-05-27T22:22:08 IST" name="getTestResult" finished-at="2024-05-27T22:22:08 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTestResult -->
+        <test-method signature="NewCust_methodChain(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testCases.TC_Login_NewCust_methodChain@79e4c792]" started-at="2024-05-27T22:22:08 IST" name="NewCust_methodChain" data-provider="LoginData" finished-at="2024-05-27T22:22:08 IST" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rajesh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[raj@yahoo.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2/28/14]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Side way]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Keptown]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Keptown]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[235689]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[1201345648]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[as45@ew]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "java.io.File.exists()" because "parentFile" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "java.io.File.exists()" because "parentFile" is null
+at com.aventstack.extentreports.reporter.AbstractFileReporter.<init>(AbstractFileReporter.java:45)
+at com.aventstack.extentreports.reporter.ExtentSparkReporter.<init>(ExtentSparkReporter.java:51)
+at com.testCases.Base.startReport(Base.java:79)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:382)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NewCust_methodChain -->
+        <test-method is-config="true" signature="getTestResult(org.testng.ITestResult)[pri:0, instance:com.testCases.TC_Login_NewCust_methodChain@79e4c792]" started-at="2024-05-27T22:22:08 IST" name="getTestResult" finished-at="2024-05-27T22:22:08 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTestResult -->
+        <test-method signature="NewCust_methodChain(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testCases.TC_Login_NewCust_methodChain@79e4c792]" started-at="2024-05-27T22:22:08 IST" name="NewCust_methodChain" data-provider="LoginData" finished-at="2024-05-27T22:22:08 IST" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Madhu]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mad@mkcl.in]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[7/30/79]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Midway]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Pune]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Maha]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[124578]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[4587913213]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[As45@hg]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "java.io.File.exists()" because "parentFile" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "java.io.File.exists()" because "parentFile" is null
+at com.aventstack.extentreports.reporter.AbstractFileReporter.<init>(AbstractFileReporter.java:45)
+at com.aventstack.extentreports.reporter.ExtentSparkReporter.<init>(ExtentSparkReporter.java:51)
+at com.testCases.Base.startReport(Base.java:79)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:382)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NewCust_methodChain -->
+        <test-method is-config="true" signature="getTestResult(org.testng.ITestResult)[pri:0, instance:com.testCases.TC_Login_NewCust_methodChain@79e4c792]" started-at="2024-05-27T22:22:08 IST" name="getTestResult" finished-at="2024-05-27T22:22:08 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTestResult -->
+        <test-method signature="NewCust_methodChain(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testCases.TC_Login_NewCust_methodChain@79e4c792]" started-at="2024-05-27T22:22:08 IST" name="NewCust_methodChain" data-provider="LoginData" finished-at="2024-05-27T22:22:08 IST" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Manju]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[maj@book.in]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5/29/95]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Female]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Subway]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Solapur]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Maha]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[132648]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[1232654578]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[fg@12ty]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "java.io.File.exists()" because "parentFile" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "java.io.File.exists()" because "parentFile" is null
+at com.aventstack.extentreports.reporter.AbstractFileReporter.<init>(AbstractFileReporter.java:45)
+at com.aventstack.extentreports.reporter.ExtentSparkReporter.<init>(ExtentSparkReporter.java:51)
+at com.testCases.Base.startReport(Base.java:79)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:382)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NewCust_methodChain -->
+        <test-method is-config="true" signature="getTestResult(org.testng.ITestResult)[pri:0, instance:com.testCases.TC_Login_NewCust_methodChain@79e4c792]" started-at="2024-05-27T22:22:08 IST" name="getTestResult" finished-at="2024-05-27T22:22:08 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTestResult -->
+        <test-method signature="NewCust_methodChain(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.testCases.TC_Login_NewCust_methodChain@79e4c792]" started-at="2024-05-27T22:22:08 IST" name="NewCust_methodChain" data-provider="LoginData" finished-at="2024-05-27T22:22:08 IST" duration-ms="1" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rakesh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[rack@skill.in]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3/9/15]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Male]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Seashore]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[NewYork]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[NewYork]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[141235]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[1265789845]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[As@15Er]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "java.io.File.exists()" because "parentFile" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "java.io.File.exists()" because "parentFile" is null
+at com.aventstack.extentreports.reporter.AbstractFileReporter.<init>(AbstractFileReporter.java:45)
+at com.aventstack.extentreports.reporter.ExtentSparkReporter.<init>(ExtentSparkReporter.java:51)
+at com.testCases.Base.startReport(Base.java:79)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:382)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NewCust_methodChain -->
+        <test-method is-config="true" signature="getTestResult(org.testng.ITestResult)[pri:0, instance:com.testCases.TC_Login_NewCust_methodChain@79e4c792]" started-at="2024-05-27T22:22:08 IST" name="getTestResult" finished-at="2024-05-27T22:22:08 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTestResult -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.testCases.TC_Login_NewCust_methodChain@79e4c792]" started-at="2024-05-27T22:22:08 IST" name="teardown" finished-at="2024-05-27T22:22:08 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.testCases.TC_Login_NewCust_methodChain -->
+      <class name="com.testCases.TC_NewCustomer">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.testCases.TC_NewCustomer@17f9d882]" started-at="2024-05-27T22:22:02 IST" name="setup" finished-at="2024-05-27T22:22:02 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="newCustTest()[pri:0, instance:com.testCases.TC_NewCustomer@17f9d882]" started-at="2024-05-27T22:22:02 IST" name="newCustTest" finished-at="2024-05-27T22:22:02 IST" duration-ms="1" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "java.io.File.exists()" because "parentFile" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "java.io.File.exists()" because "parentFile" is null
+at com.aventstack.extentreports.reporter.AbstractFileReporter.<init>(AbstractFileReporter.java:45)
+at com.aventstack.extentreports.reporter.ExtentSparkReporter.<init>(ExtentSparkReporter.java:51)
+at com.testCases.Base.startReport(Base.java:79)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:382)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newCustTest -->
+        <test-method is-config="true" signature="getTestResult(org.testng.ITestResult)[pri:0, instance:com.testCases.TC_NewCustomer@17f9d882]" started-at="2024-05-27T22:22:02 IST" name="getTestResult" finished-at="2024-05-27T22:22:02 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTestResult -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.testCases.TC_NewCustomer@17f9d882]" started-at="2024-05-27T22:22:02 IST" name="teardown" finished-at="2024-05-27T22:22:02 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.testCases.TC_NewCustomer -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
